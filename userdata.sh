@@ -7,7 +7,7 @@ TOKEN="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"
 git clone https://$TOKEN@github.com/Herr-Aksoy/my-aws-capstone-project1.git
 cd /home/ubuntu/my-aws-capstone-project1
 apt install python3-pip -y
-apt-get install python3-dev libmysqlclient-dev -y
+apt-get install libmysqlclient-dev -y
 pip3 install -r requirements.txt
 cd /home/ubuntu/my-aws-capstone-project1/src
 python3 manage.py collectstatic --noinput
